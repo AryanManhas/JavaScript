@@ -13,9 +13,14 @@ accountPassword = "212121"
 
 accountCity = "Jaipur"
 
+let accountState;
+
 
 // console.log(accountId);
 
-console.table([accountEmail , accountId , accountPassword , accountCity])
+console.table([accountEmail , accountId , accountPassword , accountCity , accountState])
 
-
+/*
+Prefer not to use
+beacuse of issue in block in scope and functional scope
+*/
