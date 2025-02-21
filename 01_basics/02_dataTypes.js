@@ -16,7 +16,7 @@ let state;
 // bigint 
 // string =>"" can be used as single quote and double quote
 // boolean => true/false
-// null datatype as well as standalone value is not undefinded but empty!!
+// null datatype as well as standalone value is not undefinded but empty!! and it is an object
 // undefined =>
 // symbol => unique
 
