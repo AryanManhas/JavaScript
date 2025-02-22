@@ -19,17 +19,45 @@
 // "33abc" => NaN (but datatype will be Number)
 // true => 1; false =>0;
 
-let isLoggedIn = "Aryan"
+// let isLoggedIn = "Aryan"
 
-let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn);
+// let booleanIsLoggedIn = Boolean(isLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 // 1 => true
 // 0 => false
 // ""(empty) => false
 // "aryan"(string) => true
 
-let someNumber = 33
-let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// let someNumber = 33
+// let stringNumber = String(someNumber)
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+// ************************* Operations *****************************
+
+// let value = 3
+// let negValue = -value
+// console.log(negValue);
+
+
+// console.log("1" + 2)
+// console.log(1 + "2")
+// console.log("1" + 2 + 2)
+// console.log(1 + 2 + "2")
+
+// console.log((3+4) * 5 % 3);
+
+// console.log(+true);
+// console.log(+"");
+
+// let num1, num2, num3
+
+// num1 = num2 = num3 = 2+2
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
+
+
