@@ -42,9 +42,29 @@
 
 // }
 
+// +++++++++++++++++++++++++++++Storage++++++++++++++++++++
+
+// Stack (Primitive) 
+
 let myYoutube = "aryanmanhas6767"
 
-let anotherName = myName
+let anotherName = myYoutube
+
+anotherName = "manhasaryan7890"
 
 console.log(anotherName);
+console.log(typeof(anotherName));
 
+
+let userOne = {
+    email : "aryanmanhas6767@gmail.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne;
+
+
+userTwo.email = "manhasaryan7890@gmail.com"
+
+console .log(userOne.email);
+console.log(userTwo.email);
