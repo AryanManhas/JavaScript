@@ -31,13 +31,20 @@
 
 // Array , Objects , Functions
 
-const heros = ["shakitman" , "naagraj" , "doga"];
-let myObj = {
-    name : "aryan",
-    age : 22
-}
+// const heros = ["shakitman" , "naagraj" , "doga"];
+// let myObj = {
+//     name : "aryan",
+//     age : 22
+// }
 
-const myFunction = function(){
-    console.log("Hello World!!");
+// const myFunction = function(){
+//     console.log("Hello World!!");
 
-}
+// }
+
+let myYoutube = "aryanmanhas6767"
+
+let anotherName = myName
+
+console.log(anotherName);
+
