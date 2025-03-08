@@ -10,3 +10,9 @@ const name = new String('aryan')
 console.log(name.toUpperCase());
 console.log(name.charAt(2));
 console.log(name.indexOf('a'));
+
+const newString = name.substring (0,4)
+console.log(newString);
+
+const anotherString = name.slice(-8,4)
+console.log(anotherString);
